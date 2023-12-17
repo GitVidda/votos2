@@ -1,0 +1,20 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb://votos:VotosWeb2023@localhost:27017/votos?authSource=votos
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/votos?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&autoReconnect=true&useSSL=false&serverTimezone=UTC
+    username: root
+    password: G0ld3n2023.
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+#  jpa:
+#    hibernate:
+#      ddl-auto: update
+#    database-platform: org.hibernate.dialect.MySQLDialect
+#    show-sql: true
+#    properties:
+#      hibernate:
+#        format_sql: true
+

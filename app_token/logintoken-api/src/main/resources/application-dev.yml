@@ -1,0 +1,10 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb://votos:VotosWeb2023@localhost:27017/votos?authSource=votos
+
+server:
+  port: 8290
+  servlet:
+    session:
+      timeout: 480m

@@ -1,0 +1,12 @@
+spring:
+  profiles:
+    active: dev
+
+jwt:
+  secret-key: AAAAB3NzaC1yc2EAAAADAQABAAABgQCjLnnoiZq8LW0jd86BHBIfprZJCMgxyXWzhMMvGt0Vp0k997cajud1Zd8zqKRdQ/lf6PimW+
+  expiration-time: 3600000
+
+server:
+  port: 8080
+  error:
+    include-message: always

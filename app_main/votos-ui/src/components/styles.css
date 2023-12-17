@@ -1,0 +1,12 @@
+.cards {
+	display: flex;
+    flex-wrap: wrap;
+    margin: 3%;
+}
+
+.box {
+    margin-right: 2%;
+    margin-bottom: 2%;
+    padding: 1%;
+    overflow: auto;
+}
